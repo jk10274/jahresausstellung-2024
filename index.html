@@ -1,56 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jahresaustellung 2024</title>
-  <!-- Add Bootstrap CSS link here -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jahresaustellung 2024</title>
+    <!-- Add Bootstrap CSS link here -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container-fluid content">
+    <nav class="navbar navbar-expand-lg bg-body-tertiar m-md-5 m-3">
+      <div class="container-fluid">
+        <a class="navbar-brand fs-3" href="#">Jahresaustellung</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav mx-md-5">
+            <a class="nav-link active px-md-3" aria-current="page" href="#"
+              >Home</a
+            >
+            <a class="nav-link active px-md-3" href="#eindruecke">Eindrücke</a>
+            <a class="nav-link active px-md-3" href="#">Besuch</a>
+            <a class="nav-link active px-md-3" href="#programm">Programm</a>
+            <a class="nav-link active px-md-3" href="#">Kontakt</a>
+          </div>
+        </div>
+      </div>
+    </nav>
 
-  <nav class="navbar navbar-expand-lg bg-body-tertiar p-5">
-    <div class="container-fluid">
-      <a class="navbar-brand fs-3" href="#">Jahresaustellung</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav px-5">
-          <a class="nav-link active px-3" aria-current="page" href="#">Home</a>
-          <a class="nav-link active px-3" href="#">Eindrücke</a>
-          <a class="nav-link active px-3" href="#">Besuch</a>
-          <a class="nav-link active px-3" href="#">Programm</a>
-          <a class="nav-link active px-3" href="#">Kontakt</a>
+    <div class="bg-image"></div>
+
+    <div class="container m-md-5 p-3">
+      <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+      <div class="row">
+        <div class="col-12 col-lg-4">
+          <p class="fs-5">»REVEAL«: Jahresausstellung der Fakultät für Design</p>
+          <p class="fs-5">
+            Im Rahmen der Jahresausstellung zeigen die Studierenden der Fakultät
+            für Design der Hochschule München vom 18. bis 21.Juli 2024
+            Abschluss- und Semesterarbeiten aus dem Bachelorstudiengang »Design«
+            mit den Studienrichtungen Fotodesign, Industriedesign und
+            Kommunikationsdesign, sowie dem Bachelorstudiengang »Informatik und
+            Design« und dem Masterstudiengang »Angewandte Designforschung«.
+          </p>
+          <p class="fs-5">
+            Unter dem Motto REVEAL bietet die Ausstellung für viele Studierende
+            einen großen Schauplatz, um ihre Arbeiten der Öffentlichkeit zu
+            präsentieren. Es stehen, neben den Arbeiten der Studierenden,
+            spannende Vorträge, musikalische Begleitung, Workshops und ein Shop
+            mit einzigartigen Werken auf dem Programm.
+          </p class="fs-5">
+          <p class="fs-5">Wir freuen uns auf eine inspirierende Ausstellung!</p>
         </div>
       </div>
     </div>
-  </nav>
-
-  <div class="container">
-    <!-- Stack the columns on mobile by making one full-width and the other half-width -->
-    <div class="row">
-      <div class="col-12 col-lg-4">
-        <p class="">
-          »REVEAL«: Jahresausstellung der Fakultät für Design
-        </p>
-        <p>
-          Im Rahmen der Jahresausstellung zeigen die Studierenden der Fakultät für Design der Hochschule München vom 18. bis 21.Juli 2024 Abschluss- und Semesterarbeiten aus dem Bachelorstudiengang »Design« mit den Studienrichtungen Fotodesign, Industriedesign und Kommunikationsdesign, sowie dem Bachelorstudiengang »Informatik und Design« und dem Masterstudiengang »Angewandte Designforschung«.
-        </p>
-        <p>
-          Unter dem Motto REVEAL bietet die Ausstellung für viele Studierende einen großen Schauplatz, um ihre Arbeiten der Öffentlichkeit zu präsentieren. Es stehen, neben den Arbeiten der Studierenden, spannende Vorträge, musikalische Begleitung, Workshops und ein Shop mit einzigartigen Werken auf dem Programm.
-        </p>
-        <p>
-          Wir freuen uns auf eine inspirierende Ausstellung!
-        </p>
+    <div style="width: 100% !important;" class="container m-md-5 p-3 no-padding">
+      <h2 id="eindruecke">Eindrücke</h2>
+      <div class="image-gallery">
+        <img src="assets/003-Phillip Wagner-Blick von Oben auf den Außenbereich.webp" alt="Image 1">
+        <img src="assets/004-Phillip Wagner-Ein Besucher schaut sich eine Abschlussarbeit an.webp" alt="Image 2">
+        <img src="assets/005-Phillip Wagner-Ein Blumenstrauß in einem Eimer mit Eiswasser.webp" alt="Image 3">
+        <img src="assets/008-Phillip Wagner-Ein Tisch mit studentischen Magazinen.webp" alt="Image 4">
       </div>
     </div>
-  </div>
+    <div class="container m-md-5 p-3">
+      <h2 id="programm">Programm</h2>
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">DONNERSTAG, 18. JULI</th>
+            <th scope="col">FREITAG, 19. JULI</th>
+            <th scope="col">SAMSTAG, 20. JULI</th>
+            <th scope="col">SONNTAG, 21. JULI</th>
+          </tr>
+        <tbody>
+          <tr>
+            <td>Öffnungszeiten der Ausstellung 19–24 Uhr</td>
+            <td>Öffnungszeiten der Ausstellung 12–22 Uhr</td>
+            <td>Öffnungszeiten der Ausstellung 12–18 Uhr</td>
+            <td>Öffnungszeiten der Ausstellung 12–18 Uhr</td>
+          </tr>
+          <tr>
+            <td>Verabschiedung der ausstellenden ExaminantInnen 17–18 Uhr | Großer Hörsaal</td>
+            <td>Live Musik, Workshops, Vorträge 12-16 Uhr</td>
+            <td>Live Musik, Workshops, Vorträge 12-18 Uhr</td>
+            <td>Gemeinsames Abschlussgrillen für Studierende und Mitarbeitendeab 18 Uhr | Basketballplatz</td>
+          </tr>
+          <tr>
+            <td>Eröffnung der Ausstellung 19 Uhr | Pavillon</td>
+            <td>Film-Premierenabend 16–21 Uhr I Großer Hörsaal</td>
+          </tr>
+          <tr>
+            <td>Open-Air-Kino 20:30–22 Uhr | Basketballplatz</td>
+            <td>Open-Air-Kino 20:30–22 Uhr | Basketballplatz</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="container m-md-5 p-3">
+      <h2 id="lageplan">Lageplan</h2>
+    </div>
+    </div>
 
-  <!-- Add Bootstrap JS and jQuery scripts here -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  <!-- Add your custom JavaScript code here -->
-  <script>
-  </script>
-</body>
+
+    <!-- Add Bootstrap JS and jQuery scripts here -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
