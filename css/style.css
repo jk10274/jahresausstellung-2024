@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'RGCironText-Heavy';
+    src: url('../fonts/RGCironText-Heavy.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'JSSans-Regular';
+    src: url('../fonts/JSSans-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'JSSans-RegularItalic';
+    src: url('../fonts/JSSans-RegularItalic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'JSSans-Medium';
+    src: url('../fonts/JSSans-Medium.otf') format('opentype');
+}
+
+body {
+    font-family: 'JSSans-Regular', sans-serif !important;
+}
+
+.navbar-brand {
+    font-family: 'RGCironText-Heavy', sans-serif !important;
+}
+
+.navbar {
+    background-color: white !important;
+    font-family: 'JSSans-Medium', sans-serif !important;
+}
