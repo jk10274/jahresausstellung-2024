@@ -59,7 +59,7 @@ h2 {
     left: 0;
     top: 0;
     bottom: 0;
-    width: 30%; /* adjust this as needed */
+    width: 100%; /* adjust this as needed */
     background-image: url('../assets/stern_blau_1.png');
     background-repeat: no-repeat;
     background-position: left top;
@@ -73,7 +73,7 @@ h2 {
     right: 0;
     top: 0;
     bottom: 0;
-    width: 70%; /* adjust this as needed */
+    width: 100%; /* adjust this as needed */
     background-image: url('../assets/hintergrund_pink_02.png');
     background-repeat: no-repeat;
     background-position: right top;
