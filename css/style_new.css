@@ -62,6 +62,7 @@ h5 {
 
 .navbar-brand {
   font-family: 'RGCironText-Bold', sans-serif !important;
+  font-feature-settings: 'ss04';
 }
 
 .navbar {
