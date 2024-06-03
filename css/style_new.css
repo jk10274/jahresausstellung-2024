@@ -1,6 +1,11 @@
 @font-face {
-    font-family: 'RGCironText-Heavy';
-    src: url('../fonts/RGCironText-Heavy.otf') format('opentype');
+    font-family: 'RGCironText-Bold';
+    src: url('../fonts/RGCironDisplay-Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'RGCironClassic-Light';
+    src: url('../fonts/RGCironClassic-Light.otf') format('opentype');
 }
 
 @font-face {
@@ -38,11 +43,11 @@ body {
 }
 
 h1 {
-    font-family: 'RGCironText-Heavy', sans-serif !important;
+    font-family: 'RGCironText-Bold', sans-serif !important;
 }
 
 h2 {
-    font-family: 'RGCironText-Heavy', sans-serif !important;
+    font-family: 'RGCironText-Bold', sans-serif !important;
 }
 
 h3 {
@@ -56,10 +61,10 @@ h5 {
 }
 
 .navbar-brand {
-  font-family: 'RGCironText-Heavy', sans-serif !important;
+  font-family: 'RGCironText-Bold', sans-serif !important;
 }
 
 .navbar {
   background-color: white !important;
-  font-family: 'JSSans-Medium', sans-serif !important;
+  font-family: 'RGCironClassic-Light', sans-serif !important;
 }
