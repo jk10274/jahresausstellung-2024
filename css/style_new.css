@@ -44,10 +44,12 @@ body {
 
 h1 {
     font-family: 'RGCironText-Bold', sans-serif !important;
+    font-feature-settings: 'ss04';
 }
 
 h2 {
     font-family: 'RGCironText-Bold', sans-serif !important;
+    font-feature-settings: 'ss04';
 }
 
 h3 {
@@ -68,4 +70,5 @@ h5 {
 .navbar {
   background-color: white !important;
   font-family: 'RGCironClassic-Light', sans-serif !important;
+  font-feature-settings: 'ss04';
 }
