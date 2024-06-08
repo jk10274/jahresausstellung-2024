@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jahresausstellung 2024</title>
+    <link rel="stylesheet" href="css/style_new.css" />
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+    <div class="container mx-auto">
+        <div class="p-2 px-5">
+            <a class="navbar-brand fs-1" style="line-height: 25px" href="#"
+            >Jahres<br />aus<br />stellung</a
+          >
+        </div>
+        <div>
+            <div id="countdown" class="fs-2 p-2 px-5"></div>
+
+            <script>
+                // Set the countdown date and time
+                var countdownDate = new Date("July 18, 2024 19:00:00").getTime();
+
+                // Update the countdown every second
+                var countdown = setInterval(function() {
+                    // Get the current date and time
+                    var now = new Date().getTime();
+
+                    // Calculate the time remaining
+                    var timeRemaining = countdownDate - now;
+
+                    // Calculate days, hours, minutes, and seconds
+                    var days = Math.floor(timeRemaining / (1000 * 60 * 60 * 24));
+                    var hours = Math.floor((timeRemaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                    var minutes = Math.floor((timeRemaining % (1000 * 60 * 60)) / (1000 * 60));
+                    var seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
+
+                    // Display the countdown
+                    document.getElementById("countdown").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+
+                    // If the countdown is finished, display a message
+                    if (timeRemaining < 0) {
+                        clearInterval(countdown);
+                        document.getElementById("countdown").innerHTML = "Countdown has ended";
+                    }
+                }, 1000);
+            </script>
+        </div>
+    </div>
+</body>
+</html>
