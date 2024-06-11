@@ -69,7 +69,7 @@ h5 {
 
 .navbar {
   background-color: white !important;
-  font-family: 'RGCironClassic-Light', sans-serif !important;
+  font-family: 'RGCironClassic-', sans-serif !important;
   font-feature-settings: 'ss04';
 }
 
@@ -140,4 +140,8 @@ h5 {
 .navbar-toggler.collapsed .bottom-bar {
   transform: rotate(0deg);
   margin-top: 20px !important;
+}
+
+.ss04 {
+  font-feature-settings: 'ss04' !important;
 }
