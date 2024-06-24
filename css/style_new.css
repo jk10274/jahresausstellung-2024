@@ -157,3 +157,7 @@ h5 {
   background-color: inherit !important; /* Keeps the background color unchanged on hover/focus */
   color: inherit !important; /* Keeps the text color unchanged on hover/focus */
 }
+
+a {
+  color: black !important;
+}
